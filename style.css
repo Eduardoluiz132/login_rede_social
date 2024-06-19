@@ -11,7 +11,7 @@ main{
 }
 #caixa{
     display: flex;
-    background-color:#f0edf3 ;
+    background-color:#2b2b2b ;
     flex: 1;
     justify-content:center ;
     align-items: center;
@@ -19,16 +19,22 @@ main{
 #caixa-de-dentro{
 width: 400px;
 height: 400px;
-background-color: #d5d7db;
+background-color: #2b2b2b;
 display: flex;
 flex-direction: column;
 padding: 43px;
-box-shadow: 0 0 5px 0px #000000f5;
+box-shadow: 0 0 5px 0px #2b2b2b;
 }
 #texto-login{
+
     text-align: center;
-    color: #42545d;
+    font-size: 31px;
+    color: #efefef;
+    font-family: inter;
+    font-style: oblique;
 }
+
+
 
 .campo-de-texto{
     padding: 10px;
