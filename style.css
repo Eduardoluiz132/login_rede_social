@@ -1,0 +1,67 @@
+body,html{
+    height: 100% ;
+    margin: 0% ;
+
+}
+   
+main{
+    display: flex;
+    height: 100%;
+    width: 100%; 
+}
+#caixa{
+    display: flex;
+    background-color:#f0edf3 ;
+    flex: 1;
+    justify-content:center ;
+    align-items: center;
+}
+#caixa-de-dentro{
+width: 400px;
+height: 400px;
+background-color: #d5d7db;
+display: flex;
+flex-direction: column;
+padding: 43px;
+box-shadow: 0 0 5px 0px #000000f5;
+}
+#texto-login{
+    text-align: center;
+    color: #42545d;
+}
+
+.campo-de-texto{
+    padding: 10px;
+    margin-bottom: 14px;
+    border:none ;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #212d33;
+}
+
+.btn{
+    background-color: #1af109;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    color: #fdfdfd;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all linear 160ms;
+    margin-top:10px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: #1c6f16;
+}
+#caixa-de-cep-estado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sexo{
+    font-size:18px ;
+    color: #42545d;
+}
